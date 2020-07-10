@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Visualization Tool</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <h1>Visualization Tool</h1>
+    <div id="root" @mousemove="onMouseMove">
+        <div :style="styleOne"></div>
+        <div :style="styleTwo"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
